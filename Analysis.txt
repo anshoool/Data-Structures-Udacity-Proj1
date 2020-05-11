@@ -1,0 +1,14 @@
+-- Task0.py
+Time complexity - O(1) because input does not affect runtime
+
+-- Task1.py
+Time complexity - O(n) because two loops are iterated two both lists seperately i.e. O(2n) = O(n)
+
+-- Task2.py
+Time complexity - O(n) because list is iterated once.
+
+-- Task3.py
+Time complexity - O(n+log n) because for For loop and Python sort. 
+
+-- Task4.py
+Time complexity - O(n+log n) because for For loop and Python sort.
