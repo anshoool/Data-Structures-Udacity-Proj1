@@ -36,5 +36,5 @@ for text in texts:
     outgoingTexts.add(text[0])
     outgoingTexts.add(text[1])
 
-print('These numbers could be telemarketers: ', *sorted(outgoingCalls - (incomingCalls|outgoingTexts|incomingTexts)))
+print('These numbers could be telemarketers: ', *sorted(outgoingCalls - (incomingCalls|outgoingTexts|incomingTexts)),sep='\n')
 
